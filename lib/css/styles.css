@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.atencao {
+    background-color: red;
+}
+.atencao p {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+header {
+    width: 100%;
+    margin: auto;
+    border-bottom: rgb(189, 189, 189) solid 1px;
+    
+}
+.MenuTopo {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.MenuTopo picture {
+    display: flex;
+    align-items: center;
+} 
+.logoName {
+    display: flex;
+    align-items: center;
+}
+.MenuTopo picture > a img{
+    width: 75px;
+    padding: 5px;
+} 
+.MenuTopo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(30, 30, 30);
+    transition: 500ms;
+}
+.MenuTopo a:hover {
+    color: red;
+}
+.MenuTopo ul {
+
+    list-style: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.cadastrosOnline {
+
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    
+}
+.cadastrosOnline a div {
+    margin-top: 20px;
+    font-size: 13px; 
+    border: rgb(123, 123, 123) solid 1px;   
+    width: 200px;
+    text-align: center;
+    line-height: 2rem;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cadastrosOnline div h2 {
+    font-size: 13px;
+    
+}
+.cadastroVacinado {
+    width: 100%;
+    margin: auto;
+    
+    
+}
+.cadastroVacinado h2{
+    margin: 20px auto;
+    text-align: center;
+}
+.formularioVacina {
+    width: 300px;
+    margin: auto;
+    
+    
+    
+}
+.formularioVacina div {
+    align-items: center;
+    display: flex;
+    line-height: 2rem;
+    margin: auto;
+    
+}
+.formularioVacina div input {
+    height: 100%;
+}
+.formularioVacina div p {
+    width: 150px;
+}
