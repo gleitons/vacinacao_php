@@ -94,6 +94,7 @@ header {
     
     
 }
+
 .formularioVacina div {
     align-items: center;
     display: flex;
@@ -106,4 +107,17 @@ header {
 }
 .formularioVacina div p {
     width: 150px;
+}
+.relatorio {
+    border: black solid 1px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.tabelaRelatorio td {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    border: black solid 1px;
 }

@@ -15,7 +15,7 @@ function menuTop() {
             <a href="./">
                 <li>Inicio</li>
             </a>
-            <a href="./">
+            <a href="./relatorio.php">
                 <li>Relatório</li>
             </a>
             <a href="./cadastro.php">
