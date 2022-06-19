@@ -1,0 +1,4 @@
+INSERT INTO `vacina_usuario` (`id`, `nome`, `email`, `senha`) VALUES (NULL, 'Eric', 'tim@gmail.com', 'timtim');
+
+
+SELECT * FROM `vacina_usuario`

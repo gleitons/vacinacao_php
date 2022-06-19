@@ -21,6 +21,9 @@ function menuTop() {
             <a href="./cadastro.php">
                 <li>Cadastro</li>
             </a>
+            <a href="./login.php">
+            <li>Login</li>
+        </a>
             <a href="./">
                 <li>Contato</li>
             </a>
